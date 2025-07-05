@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="checkAMPM()"></body>
+<body>
+
+   <center> <h2>Enter a Positive Number</h2>
+
+  <input type="number" id="userInput" step="any" />
+
+  <button onclick="displayValues()">Submit</button>
+
+
+  <div id="output" style="margin-top:20px;"></div>
+
+
+    
+
+<h1>🎲 Dice Simulator</h1>
+  <div id="dice">🎲</div>
+  <p id="value">Click the button to roll the dice.</p>
+  <button onclick="rollDice()">Roll Dice</button>
+
+<div>
+<h1>Coin Toss Simulator</h1>
+  <button onclick="tossCoin()">Toss the Coin</button>
+  <p id="result"></p>
+
+
+
+
+  </div> <br>
+
+
+
+<h2>Find Your Birth Year</h2>
+  <p>Enter your age below:</p>
+  
+  <input type="number" id="ageInput" placeholder="Enter your age" />
+  <button onclick="calculateBirthYear()">Calculate Birth Year</button>
+
+  <p id="result"></p>
+
+
+
+
+ <div class="bill">
+    <h2>K-Electric Bill</h2>
+    <p><strong>Customer Name:</strong> <span id="customerName"></span></p>
+    <p><strong>Current Month:</strong> <span id="month"></span></p>
+    <p><strong>Number of Units:</strong> <span id="units"></span></p>
+    <p><strong>Charges per Unit:</strong> <span id="chargePerUnit"></span></p>
+    <p><strong>Net Amount Payable (within Due Date):</strong> <span id="netAmount"></span></p>
+    <p><strong>Late Payment Surcharge:</strong> <span id="lateSurcharge"></span></p>
+    <p><strong>Gross Amount Payable (after Due Date):</strong> <span id="grossAmount"></span></p>
+  </div>
+
+
+
+
+</center>
+
+    <script src="script.js"></script>
+</body>
+</html>
